@@ -1,0 +1,30 @@
+{
+  "name": "happyreport",
+  "version": "1.0.0",
+  "description": "Happy Report is a flexible and powerful reporting library with a user-friendly interface, multi-platform support, and advanced reporting features.",
+  "main": "happyreport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happyreport"
+  },
+  "keywords": [
+    "happy",
+    "report",
+    "hapy",
+    "report",
+    "pdf",
+    "word",
+    "excel",
+    "preview",
+    "easy",
+    "report",
+    "designer",
+    "report",
+    "designer"
+  ],
+  "author": "Mesut DEMİR",
+  "license": "SEE LICENSE IN LICENSE.txt"
+}

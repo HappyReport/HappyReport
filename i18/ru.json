@@ -1,0 +1,634 @@
+{
+    "error": {
+       "callback_not_found": "Callback не найден. Количество callback"
+    },
+    "property": {
+       "properties": "Свойства",
+       "noProperty": "Нет свойства!",
+       "database": "База данных",
+       "elements": "Элементы",
+       "header": "Заголовок",
+       "content": "Контент",
+       "footer": "Нижний колонтитул",
+       "undo": "Отменить",
+       "redo": "Повторить",
+       "image": "Изображение",
+       "text": "Текст",
+       "print": "Печать",
+       "export": "Экспорт",
+       "pleaseWait": "Пожалуйста, подождите!!",
+       "add": "Добавить",
+       "delete": "Удалить",
+       "labelTxt": "Привязка метки",
+       "chartData": "Привязка всех данных",
+       "value": "Привязка значения",
+       "type": "Тип",
+       "log": "Лог",
+       "logsDelete": "Удалить все логи",
+       "dataPackage": "Пакет данных",
+       "questionDeleteContent": "Вы собираетесь удалить панель содержимого. Вы уверены, что хотите продолжить?",
+       "reportDesignerElementNotFound": "Элемент конструктора отчета не найден",
+       "error": "Ошибка:",
+       "errorDuringInitialization": "Ошибка при инициализации:",
+       "errorBarcode": "Ошибка штрих-кода:",
+       "errorDuringInitializationDoubleColon": "Ошибка при инициализации::",
+       "qrCode": "QR-код:",
+       "invalidJson": "Неверный JSON:",
+       "errorCreatingBarcodeItem": "Ошибка при создании элемента штрих-кода:",
+       "errorCreatingChartItem": "Ошибка при создании элемента диаграммы:",
+       "errorCreatingQRCodeItem": "Ошибка при создании элемента QR-кода:",
+       "newWindowNotOpened": "Новое окно не открылось!!",
+       "chartItemNotFoundBindingValue": "Элемент диаграммы не найден по привязанному значению:",
+       "chartItemNotFoundBindingLabel": "Элемент диаграммы не найден по привязанной метке:",
+       "chartItemNotFoundBindingDatasource": "Элемент диаграммы не найден по привязанному источнику данных:",
+       "designerInstanceNotFoundOrToJSONUnavailable": "Экземпляр конструктора не найден или функция toJSON недоступна.",
+       "reportDesignerElementNotFoundRepeat": "Элемент конструктора отчета не найден.",
+       "failedToLoadScript": "Не удалось загрузить скрипт",
+       "httpErrorStatus": "Ошибка HTTP! статус",
+       "canvasElementNotDefined": "Элемент canvas не определен",
+       "divElementNotDefined": "Элемент div не определен",
+       "elementNotDefined": "Элемент не определен",
+       "yes": "Да",
+       "no": "Нет",
+       "copy":"Копировать",
+       "paste":"Вставить",
+       "front":"Спереди",
+       "frontmost":"Самый передний",
+       "back":"Назад",
+       "backmost":"Самый задний", 
+       "dataFormat": {
+         "text": "Текст",
+         "datetime": "Дата и время",
+         "time": "Время",
+         "price": "Цена",
+         "float": "Дробное число"
+       },
+       "label": {
+         "dataFormat": "Тип данных",
+         "textFormat": "Формат данных",
+         "prefix": "Префикс",
+         "suffix": "Суффикс",
+        
+          "color": "Цвет",
+          "backgroundColor": "Цвет фона",
+          "textAlign": "Выравнивание текста",
+          "borderWidth": "Ширина границы",
+          "borderStyle": "Стиль границы",
+          "borderColor": "Цвет границы",
+          "fontFamily": "Шрифт",
+          "fontSize": "Размер шрифта",
+          "fontWeight": "Толщина шрифта",
+          "x": "X",
+          "y": "Y",
+          "width": "Ширина",
+          "height": "Высота",
+          "name": "Имя",
+          "text": "Текст",
+          "binding": "Привязка",
+          "source": "Источник",
+          "addSection": "Добавить секцию",
+          "removeSection": "Удалить секцию",
+          "remove": "Удалить",
+          "image": "Изображение",
+          "checked": "проверено"
+       },
+       "borderStyle": {
+          "none": "нет",
+          "dotted": "пунктирная",
+          "dashed": "штриховая",
+          "solid": "сплошная",
+          "double": "двойная",
+          "groove": "бороздчатая",
+          "ridge": "ребристая",
+          "inset": "вдавленная",
+          "outset": "выпуклая"
+       },
+       "fontFamily": [
+          {
+             "value": "Arial",
+             "label": "Arial"
+          },
+          {
+             "value": "Helvetica",
+             "label": "Helvetica"
+          },
+          {
+             "value": "Myriad Pro",
+             "label": "Myriad Pro"
+          },
+          {
+             "value": "Delicious",
+             "label": "Delicious"
+          },
+          {
+             "value": "Verdana",
+             "label": "Verdana"
+          },
+          {
+             "value": "Georgia",
+             "label": "Georgia"
+          },
+          {
+             "value": "Courier",
+             "label": "Courier"
+          },
+          {
+             "value": "Comic Sans MS",
+             "label": "Comic Sans MS"
+          },
+          {
+             "value": "Impact",
+             "label": "Impact"
+          },
+          {
+             "value": "Monaco",
+             "label": "Monaco"
+          },
+          {
+             "value": "Optima",
+             "label": "Optima"
+          },
+          {
+             "value": "Hoefler Text",
+             "label": "Hoefler Text"
+          },
+          {
+             "value": "Plaster",
+             "label": "Plaster"
+          },
+          {
+             "value": "Engagement",
+             "label": "Engagement"
+          }
+       ],
+       "fontSize": [
+          {
+             "value": "6px",
+             "label": "6"
+          },
+          {
+             "value": "7px",
+             "label": "7"
+          },
+          {
+             "value": "8px",
+             "label": "8"
+          },
+          {
+             "value": "9px",
+             "label": "9"
+          },
+          {
+             "value": "10px",
+             "label": "10"
+          },
+          {
+             "value": "11px",
+             "label": "11"
+          },
+          {
+             "value": "",
+             "label": "12"
+          },
+          {
+             "value": "13px",
+             "label": "13"
+          },
+          {
+             "value": "14px",
+             "label": "14"
+          },
+          {
+             "value": "15px",
+             "label": "15"
+          },
+          {
+             "value": "16px",
+             "label": "16"
+          },
+          {
+             "value": "17px",
+             "label": "17"
+          },
+          {
+             "value": "18px",
+             "label": "18"
+          },
+          {
+             "value": "19px",
+             "label": "19"
+          },
+          {
+             "value": "20px",
+             "label": "20"
+          },
+          {
+             "value": "21px",
+             "label": "21"
+          },
+          {
+             "value": "22px",
+             "label": "22"
+          },
+          {
+             "value": "23px",
+             "label": "23"
+          },
+          {
+             "value": "24px",
+             "label": "24"
+          },
+          {
+             "value": "25px",
+             "label": "25"
+          },
+          {
+             "value": "26px",
+             "label": "26"
+          },
+          {
+             "value": "27px",
+             "label": "27"
+          },
+          {
+             "value": "28px",
+             "label": "28"
+          },
+          {
+             "value": "29px",
+             "label": "29"
+          },
+          {
+             "value": "30px",
+             "label": "30"
+          },
+          {
+             "value": "31px",
+             "label": "31"
+          },
+          {
+             "value": "32px",
+             "label": "32"
+          },
+          {
+             "value": "33px",
+             "label": "33"
+          },
+          {
+             "value": "34px",
+             "label": "34"
+          },
+          {
+             "value": "35px",
+             "label": "35"
+          },
+          {
+             "value": "36px",
+             "label": "36"
+          },
+          {
+             "value": "37px",
+             "label": "37"
+          },
+          {
+             "value": "38px",
+             "label": "38"
+          },
+          {
+             "value": "39px",
+             "label": "39"
+          },
+          {
+             "value": "40px",
+             "label": "40"
+          },
+          {
+             "value": "41px",
+             "label": "41"
+          },
+          {
+             "value": "42px",
+             "label": "42"
+          },
+          {
+             "value": "43px",
+             "label": "43"
+          },
+          {
+             "value": "44px",
+             "label": "44"
+          },
+          {
+             "value": "45px",
+             "label": "45"
+          },
+          {
+             "value": "46px",
+             "label": "46"
+          },
+          {
+             "value": "47px",
+             "label": "47"
+          },
+          {
+             "value":"48px",
+             "label": "48"
+          },
+          {
+             "value": "49px",
+             "label": "49"
+          },
+          {
+             "value": "50px",
+             "label": "50"
+          },
+          {
+             "value": "51px",
+             "label": "51"
+          },
+          {
+             "value": "52px",
+             "label": "52"
+          },
+          {
+             "value": "53px",
+             "label": "53"
+          },
+          {
+             "value": "54px",
+             "label": "54"
+          },
+          {
+             "value": "55px",
+             "label": "55"
+          },
+          {
+             "value": "56px",
+             "label": "56"
+          },
+          {
+             "value": "57px",
+             "label": "57"
+          },
+          {
+             "value": "58px",
+             "label": "58"
+          },
+          {
+             "value": "59px",
+             "label": "59"
+          },
+          {
+             "value": "60px",
+             "label": "60"
+          },
+          {
+             "value": "61px",
+             "label": "61"
+          },
+          {
+             "value": "62px",
+             "label": "62"
+          },
+          {
+             "value": "63px",
+             "label": "63"
+          },
+          {
+             "value": "64px",
+             "label": "64"
+          },
+          {
+             "value": "65px",
+             "label": "65"
+          },
+          {
+             "value": "66px",
+             "label": "66"
+          },
+          {
+             "value": "67px",
+             "label": "67"
+          },
+          {
+             "value": "68px",
+             "label": "68"
+          },
+          {
+             "value": "69px",
+             "label": "69"
+          },
+          {
+             "value": "70px",
+             "label": "70"
+          },
+          {
+             "value": "71px",
+             "label": "71"
+          },
+          {
+             "value": "72px",
+             "label": "72"
+          },
+          {
+             "value": "73px",
+             "label": "73"
+          },
+          {
+             "value": "74px",
+             "label": "74"
+          },
+          {
+             "value": "75px",
+             "label": "75"
+          },
+          {
+             "value": "76px",
+             "label": "76"
+          },
+          {
+             "value": "77px",
+             "label": "77"
+          },
+          {
+             "value": "78px",
+             "label": "78"
+          },
+          {
+             "value": "79px",
+             "label": "79"
+          },
+          {
+             "value": "80px",
+             "label": "80"
+          },
+          {
+             "value": "81px",
+             "label": "81"
+          },
+          {
+             "value": "82px",
+             "label": "82"
+          },
+          {
+             "value": "83px",
+             "label": "83"
+          },
+          {
+             "value": "84px",
+             "label": "84"
+          },
+          {
+             "value": "85px",
+             "label": "85"
+          },
+          {
+             "value": "86px",
+             "label": "86"
+          },
+          {
+             "value": "87px",
+             "label": "87"
+          },
+          {
+             "value": "88px",
+             "label": "88"
+          },
+          {
+             "value": "89px",
+             "label": "89"
+          },
+          {
+             "value": "90px",
+             "label": "90"
+          },
+          {
+             "value": "91px",
+             "label": "91"
+          },
+          {
+             "value": "92px",
+             "label": "92"
+          },
+          {
+             "value": "93px",
+             "label": "93"
+          },
+          {
+             "value": "94px",
+             "label": "94"
+          },
+          {
+             "value": "95px",
+             "label": "95"
+          },
+          {
+             "value": "96px",
+             "label": "96"
+          },
+          {
+             "value": "97px",
+             "label": "97"
+          },
+          {
+             "value": "98px",
+             "label": "98"
+          },
+          {
+             "value": "99px",
+             "label": "99"
+          }
+       ],
+       "fontWeight": [
+          {
+             "value": "",
+             "label": "Обычный"
+          },
+          {
+             "value": "lighter",
+             "label": "Тоньше"
+          },
+          {
+             "value": "bold",
+             "label": "Жирный"
+          },
+          {
+             "value": "bolder",
+             "label": "Толще"
+          },
+          {
+             "value": "100",
+             "label": "100"
+          },
+          {
+             "value": "200",
+             "label": "200"
+          },
+          {
+             "value": "300",
+             "label": "300"
+          },
+          {
+             "value": "400",
+             "label": "400"
+          },
+          {
+             "value": "500",
+             "label": "500"
+          },
+          {
+             "value": "600",
+             "label": "600"
+          },
+          {
+             "value": "700",
+             "label": "700"
+          },
+          {
+             "value": "800",
+             "label": "800"
+          },
+          {
+             "value": "900",
+             "label": "900"
+          }
+       ],
+       "chartTypes": [
+          {
+             "value": "bar",
+             "label": "Столбчатая"
+          },
+          {
+             "value": "line",
+             "label": "Линейная"
+          },
+          {
+             "value": "bubble",
+             "label": "Пузырьковая"
+          },
+          {
+             "value": "doughnut",
+             "label": "Кольцевая"
+          },
+          {
+             "value": "scatter",
+             "label": "Точечная"
+          },
+          {
+             "value": "polarArea",
+             "label": "Полярная"
+          },
+          {
+             "value": "radar",
+             "label": "Радарная"
+          }
+       ],
+       "textAlign": {
+          "left": "Слева",
+          "center": "По центру",
+          "right": "Справа"
+       }
+    }
+ }
+ 
+ 

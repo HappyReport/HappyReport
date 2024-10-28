@@ -1,0 +1,629 @@
+{
+   "error": {
+      "callback_not_found": "Geri dönüş bulunamadı. Beklenen islem sayısı"
+   },
+   "property": {
+      "properties": "Özellikler",
+      "noProperty": "Özellik Yok!",
+      "database": "Veritabanı",
+      "elements": "Etiketler",
+      "header": "Üstbilgi",
+      "content": "İçerik",
+      "footer": "Altbilgi",
+      "undo": "Geri Al",
+      "redo": "İleri Al",
+      "image": "Resim",
+      "text": "Metin",
+      "print": "Yazdır",
+      "export": "Çıkart",
+      "pleaseWait": "Lütfen bekleyiniz!!",
+      "add": "Ekle",
+      "delete": "Sil",
+      "labelTxt": "Label Binding",
+      "value": "Data Binding",
+      "chartData": "Tüm Chart Binding",
+      "log": "Sistem Mesajları",
+      "logsDelete": "Tüm Kayıtları Sil",
+      "questionDeleteContent": "İçerik panelini silmek üzeresiniz. Devam etmek istediğinize emin misiniz?",
+      "reportDesignerElementNotFound": "Rapor Tasarımcı öğesi bulunamadı",
+      "error": "Hata:",
+      "errorDuringInitialization": "Başlatma sırasında hata:",
+      "errorBarcode": "Barkod Hatası:",
+      "errorDuringInitializationDoubleColon": "Başlatma sırasında hata::",
+      "qrCode": "QR Kod:",
+      "invalidJson": "Geçersiz JSON:",
+      "errorCreatingBarcodeItem": "Barkod Öğesi oluşturulurken hata:",
+      "errorCreatingChartItem": "Grafik Öğesi oluşturulurken hata:",
+      "errorCreatingQRCodeItem": "QR Kod Öğesi oluşturulurken hata:",
+      "newWindowNotOpened": "Yeni pencere açılmadı!!",
+      "chartItemNotFoundBindingValue": "Grafik Öğesi Bağlama Değeri Bulunamadı:",
+      "chartItemNotFoundBindingLabel": "Grafik Öğesi Bağlama Etiketi Bulunamadı:",
+      "chartItemNotFoundBindingDatasource": "Grafik Öğesi Bağlama Veri Kaynağı Bulunamadı:",
+      "designerInstanceNotFoundOrToJSONUnavailable": "Tasarımcı örneği bulunamadı veya toJSON işlevi kullanılamıyor.",
+      "reportDesignerElementNotFoundRepeat": "Rapor Tasarımcı öğesi bulunamadı.",
+      "failedToLoadScript": "Betik yüklenemedi",
+      "httpErrorStatus": "HTTP hatası! durum",
+      "canvasElementNotDefined": "Canvas öğesi tanımlı değil",
+      "divElementNotDefined": "Div öğesi tanımlı değil",
+      "elementNotDefined": "Öğe tanımlı değil",
+      "yes": "Evet",
+      "no": "Hayır",
+      "copy":"Kopyala",
+      "paste":"Yapıştır",
+      "front":"Öne Getir",
+      "frontmost":"En Öne Getir",
+      "back":"Arkaya Gönder",
+      "backmost":"En Arkaya Gönder", 
+      "label": {
+         "dataFormat": "Veri Türü",
+         "textFormat": "Veri Formatı",
+         "prefix": "Önek",
+         "suffix": "Sonek",
+         "color": "Renk",
+         "backgroundColor": "Arkaplan Rengi",
+         "textAlign": "Metin Hizalama",
+         "borderWidth": "Kenar Kalınlığı",
+         "borderStyle": "Kenar Stili",
+         "borderColor": "Kenar Rengi",
+         "fontFamily": "Yazı Fontu",
+         "fontSize": "Yazı Boyutu",
+         "fontWeight": "Yazı Kalınlığı",
+         "x": "X",
+         "y": "Y",
+         "width": "Genişlik",
+         "height": "Yükseklik",
+         "name": "Adı",
+         "text": "Metin",
+         "binding": "Binding Alanı",
+         "source": "Kaynak",
+         "addSection": "Bölüm Ekle",
+         "removeSection": "Bölümü Sil",
+         "remove": "Sil",
+         "image": "Resim",
+         "checked": "Kontrol"
+      },
+      "dataFormat": {
+         "text": "Metin",
+         "datetime": "Tarih Saat",
+         "time": "Saat",
+         "price": "Para",
+         "float": "Ondalık"
+     },
+      "borderStyle": {
+         "none": "Yok",
+         "dotted": "Noktalı",
+         "dashed": "Kesik çizgi",
+         "solid": "Düz çizgi",
+         "double": "Çift çizgi",
+         "groove": "Oluk",
+         "ridge": "Çıkıntı",
+         "inset": "İçe gömülü",
+         "outset": "Dışa çıkıntı"
+      },
+      "fontFamily": [
+         {
+            "value": "Arial",
+            "label": "Arial"
+         },
+         {
+            "value": "Helvetica",
+            "label": "Helvetica"
+         },
+         {
+            "value": "Myriad Pro",
+            "label": "Myriad Pro"
+         },
+         {
+            "value": "Delicious",
+            "label": "Delicious"
+         },
+         {
+            "value": "Verdana",
+            "label": "Verdana"
+         },
+         {
+            "value": "Georgia",
+            "label": "Georgia"
+         },
+         {
+            "value": "Courier",
+            "label": "Courier"
+         },
+         {
+            "value": "Comic Sans MS",
+            "label": "Comic Sans MS"
+         },
+         {
+            "value": "Impact",
+            "label": "Impact"
+         },
+         {
+            "value": "Monaco",
+            "label": "Monaco"
+         },
+         {
+            "value": "Optima",
+            "label": "Optima"
+         },
+         {
+            "value": "Hoefler Text",
+            "label": "Hoefler Text"
+         },
+         {
+            "value": "Plaster",
+            "label": "Plaster"
+         },
+         {
+            "value": "Engagement",
+            "label": "Engagement"
+         }
+      ],
+      "fontSize": [
+         {
+            "value": "6px",
+            "label": "6"
+         },
+         {
+            "value": "7px",
+            "label": "7"
+         },
+         {
+            "value": "8px",
+            "label": "8"
+         },
+         {
+            "value": "9px",
+            "label": "9"
+         },
+         {
+            "value": "10px",
+            "label": "10"
+         },
+         {
+            "value": "11px",
+            "label": "11"
+         },
+         {
+            "value": "12px",
+            "label": "12"
+         },
+         {
+            "value": "13px",
+            "label": "13"
+         },
+         {
+            "value": "14px",
+            "label": "14"
+         },
+         {
+            "value": "15px",
+            "label": "15"
+         },
+         {
+            "value": "16px",
+            "label": "16"
+         },
+         {
+            "value": "17px",
+            "label": "17"
+         },
+         {
+            "value": "18px",
+            "label": "18"
+         },
+         {
+            "value": "19px",
+            "label": "19"
+         },
+         {
+            "value": "20px",
+            "label": "20"
+         },
+         {
+            "value": "21px",
+            "label": "21"
+         },
+         {
+            "value": "22px",
+            "label": "22"
+         },
+         {
+            "value": "23px",
+            "label": "23"
+         },
+         {
+            "value": "24px",
+            "label": "24"
+         },
+         {
+            "value": "25px",
+            "label": "25"
+         },
+         {
+            "value": "26px",
+            "label": "26"
+         },
+         {
+            "value": "27px",
+            "label": "27"
+         },
+         {
+            "value": "28px",
+            "label": "28"
+         },
+         {
+            "value": "29px",
+            "label": "29"
+         },
+         {
+            "value": "30px",
+            "label": "30"
+         },
+         {
+            "value": "31px",
+            "label": "31"
+         },
+         {
+            "value": "32px",
+            "label": "32"
+         },
+         {
+            "value": "33px",
+            "label": "33"
+         },
+         {
+            "value": "34px",
+            "label": "34"
+         },
+         {
+            "value": "35px",
+            "label": "35"
+         },
+         {
+            "value": "36px",
+            "label": "36"
+         },
+         {
+            "value": "37px",
+            "label": "37"
+         },
+         {
+            "value": "38px",
+            "label": "38"
+         },
+         {
+            "value": "39px",
+            "label": "39"
+         },
+         {
+            "value": "40px",
+            "label": "40"
+         },
+         {
+            "value": "41px",
+            "label": "41"
+         },
+         {
+            "value": "42px",
+            "label": "42"
+         },
+         {
+            "value": "43px",
+            "label": "43"
+         },
+         {
+            "value": "44px",
+            "label": "44"
+         },
+         {
+            "value": "45px",
+            "label": "45"
+         },
+         {
+            "value": "46px",
+            "label": "46"
+         },
+         {
+            "value": "47px",
+            "label": "47"
+         },
+         {
+            "value": "48px",
+            "label": "48"
+         },
+         {
+            "value": "49px",
+            "label": "49"
+         },
+         {
+            "value": "50px",
+            "label": "50"
+         },
+         {
+            "value": "51px",
+            "label": "51"
+         },
+         {
+            "value": "52px",
+            "label": "52"
+         },
+         {
+            "value": "53px",
+            "label": "53"
+         },
+         {
+            "value": "54px",
+            "label": "54"
+         },
+         {
+            "value": "55px",
+            "label": "55"
+         },
+         {
+            "value": "56px",
+            "label": "56"
+         },
+         {
+            "value": "57px",
+            "label": "57"
+         },
+         {
+            "value": "58px",
+            "label": "58"
+         },
+         {
+            "value": "59px",
+            "label": "59"
+         },
+         {
+            "value": "60px",
+            "label": "60"
+         },
+         {
+            "value": "61px",
+            "label": "61"
+         },
+         {
+            "value": "62px",
+            "label": "62"
+         },
+         {
+            "value": "63px",
+            "label": "63"
+         },
+         {
+            "value": "64px",
+            "label": "64"
+         },
+         {
+            "value": "65px",
+            "label": "65"
+         },
+         {
+            "value": "66px",
+            "label": "66"
+         },
+         {
+            "value": "67px",
+            "label": "67"
+         },
+         {
+            "value": "68px",
+            "label": "68"
+         },
+         {
+            "value": "69px",
+            "label": "69"
+         },
+         {
+            "value": "70px",
+            "label": "70"
+         },
+         {
+            "value": "71px",
+            "label": "71"
+         },
+         {
+            "value": "72px",
+            "label": "72"
+         },
+         {
+            "value": "73px",
+            "label": "73"
+         },
+         {
+            "value": "74px",
+            "label": "74"
+         },
+         {
+            "value": "75px",
+            "label": "75"
+         },
+         {
+            "value": "76px",
+            "label": "76"
+         },
+         {
+            "value": "77px",
+            "label": "77"
+         },
+         {
+            "value": "78px",
+            "label": "78"
+         },
+         {
+            "value": "79px",
+            "label": "79"
+         },
+         {
+            "value": "80px",
+            "label": "80"
+         },
+         {
+            "value": "81px",
+            "label": "81"
+         },
+         {
+            "value": "82px",
+            "label": "82"
+         },
+         {
+            "value": "83px",
+            "label": "83"
+         },
+         {
+            "value": "84px",
+            "label": "84"
+         },
+         {
+            "value": "85px",
+            "label": "85"
+         },
+         {
+            "value": "86px",
+            "label": "86"
+         },
+         {
+            "value": "87px",
+            "label": "87"
+         },
+         {
+            "value": "88px",
+            "label": "88"
+         },
+         {
+            "value": "89px",
+            "label": "89"
+         },
+         {
+            "value": "90px",
+            "label": "90"
+         },
+         {
+            "value": "91px",
+            "label": "91"
+         },
+         {
+            "value": "92px",
+            "label": "92"
+         },
+         {
+            "value": "93px",
+            "label": "93"
+         },
+         {
+            "value": "94px",
+            "label": "94"
+         },
+         {
+            "value": "95px",
+            "label": "95"
+         },
+         {
+            "value": "96px",
+            "label": "96"
+         },
+         {
+            "value": "97px",
+            "label": "97"
+         },
+         {
+            "value": "98px",
+            "label": "98"
+         },
+         {
+            "value": "99px",
+            "label": "99"
+         }
+      ],
+      "fontWeight": [
+         {
+            "value": "",
+            "label": "Normal"
+         },
+         {
+            "value": "lighter",
+            "label": "Hafif"
+         },
+         {
+            "value": "bold",
+            "label": "Kalın"
+         },
+         {
+            "value": "bolder",
+            "label": "Daha Kalın"
+         },
+         {
+            "value": "100",
+            "label": "100"
+         },
+         {
+            "value": "200",
+            "label": "200"
+         },
+         {
+            "value": "300",
+            "label": "300"
+         },
+         {
+            "value": "400",
+            "label": "400"
+         },
+         {
+            "value": "500",
+            "label": "500"
+         },
+         {
+            "value": "600",
+            "label": "600"
+         },
+         {
+            "value": "700",
+            "label": "700"
+         },
+         {
+            "value": "800",
+            "label": "800"
+         },
+         {
+            "value": "900",
+            "label": "900"
+         }
+      ],
+      "chartTypes": [
+         {
+            "value": "bar",
+            "label": "Çubuk"
+         },
+         {
+            "value": "line",
+            "label": "Çizgi"
+         },
+         {
+            "value": "bubble",
+            "label": "Kabarcık"
+         },
+         {
+            "value": "doughnut",
+            "label": "Donut"
+         },
+         {
+            "value": "scatter",
+            "label": "Dağılım"
+         },
+         {
+            "value": "polarArea",
+            "label": "Kutup Alanı"
+         },
+         {
+            "value": "radar",
+            "label": "Radar"
+         }
+      ],
+      "textAlign": {
+         "left": "Sol",
+         "center": "Ortala",
+         "right": "Sağ"
+      }
+   }
+}

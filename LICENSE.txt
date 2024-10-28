@@ -1,0 +1,19 @@
+HappyReport License All rights reserved. This software, along with any associated materials, may only be used with the explicit permission of the license holder. Copying, distribution, modification, or commercial use of this software or any part of it is strictly prohibited without prior authorization.
+
+License Terms: Personal and Commercial Use: This software may only be used with the explicit permission of HappyReport (hereinafter referred to as "License Holder"). You are not permitted to use this software for personal or commercial purposes without permission.
+
+Distribution: Copying, sharing, distributing, or republishing any copy or derivative of this software is prohibited.
+
+Modification: The right to modify, create derivative works from, or rearrange this software belongs solely to the License Holder. Third parties are prohibited from making changes to the software.
+
+Reverse Engineering: Reverse engineering, decompiling, or decoding the software is prohibited.
+
+Commercial Use: Commercial use of this software is strictly forbidden. Such use is permitted only with the written consent of the License Holder.
+
+Warranty Disclaimer: This software is provided "AS IS". The License Holder does not guarantee the availability, accuracy, or suitability of this software for any particular purpose.
+
+In Case of Violation If you violate any terms of this license, the License Holder reserves the right to take legal action and seek remedies.
+
+Permission Requests To use, copy, or modify this software, you must obtain explicit written permission from the License Holder. For permission requests and other inquiries, please contact the License Holder at:
+
+[Contact Information: info@happyreport.store]
